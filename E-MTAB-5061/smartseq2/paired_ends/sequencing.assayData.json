@@ -1,0 +1,20 @@
+{
+  "alias": "seqRun1",
+  "assayRef": {
+    "alias": "seq1"
+  },
+  "files": [
+    {
+      "type": "fastq",
+      "name": "SRR2967608_1.fastq.gz",
+      "label": "F1"
+    },
+    {
+      "type": "fastq",
+      "name": "SRR2967608_2.fastq.gz",
+      "label": "R2"
+    }
+  ],
+  "archive": "Ena",
+  "submission": "http://submission-dev.ebi.ac.uk/api/submissions/0d31d31c-93f0-4b6c-9cab-08919a6bfa4e"
+}

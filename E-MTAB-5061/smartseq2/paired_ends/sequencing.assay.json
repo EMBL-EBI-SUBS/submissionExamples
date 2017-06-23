@@ -1,0 +1,64 @@
+{
+  "alias": "seq1",
+  "studyRef": {
+    "alias": "organoids"
+  },
+  "samplesUses": [
+    {
+      "sampleRef": {
+        "alias": "fetus 1"
+      },
+      "attributes": [
+
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "design_description",
+      "value": "<<design_description??>>"
+    },
+    {
+      "name": "library_name",
+      "value": "<<Library Name??>>"
+    },
+    {
+      "name": "library_strategy",
+      "value": "RNA-Seq"
+    },
+    {
+      "name": "library_source",
+      "value": "TRANSCRIPTOMIC SINGLE CELL"
+    },
+    {
+      "name": "library_selection",
+      "value": "RANDOM PCR"
+    },
+    {
+      "name": "library_layout",
+      "value": "PAIRED"
+    },
+    {
+      "name": "platform_type",
+      "value": "ILLUMINA"
+    },
+    {
+      "name": "instrument_model",
+      "value": "Illumina HiSeq 2500"
+    },
+    {
+      "name": "spike in",
+      "value": "ERCC"
+    },
+    {
+      "name": "molecule",
+      "value": "total RNA"
+    },
+    {
+      "name": "single cell method",
+      "value": "Fluidigm C1"
+    }
+  ],
+  "archive": "Ena",
+  "submission": "http://submission-dev.ebi.ac.uk/api/submissions/0d31d31c-93f0-4b6c-9cab-08919a6bfa4e"
+}

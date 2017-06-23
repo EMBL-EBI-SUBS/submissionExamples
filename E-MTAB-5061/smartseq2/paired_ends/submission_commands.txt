@@ -1,0 +1,11 @@
+curl 'http://submission-dev.ebi.ac.uk/api/submissions' -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @example.submission.json
+
+SUBMISSION URL is http://submission-dev.ebi.ac.uk/api/submissions/0d31d31c-93f0-4b6c-9cab-08919a6bfa4e
+
+curl 'http://submission-dev.ebi.ac.uk/api/samples' -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @donor.sample.json
+curl 'http://submission-dev.ebi.ac.uk/api/samples' -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @tissueSpecimen.sample.json
+curl 'http://submission-dev.ebi.ac.uk/api/studies' -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @organoids.study.json
+curl 'http://submission-dev.ebi.ac.uk/api/assays' -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @sequencing.assay.json
+curl 'http://submission-dev.ebi.ac.uk/api/assayData' -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @sequencing.assayData.json
+
+curl 'http://submission-dev.ebi.ac.uk/api/submissionStatuses/0bf599c0-8126-4e93-ad13-5a43f8bdccf3' -i -X PUT -H 'Content-Type: application/json' -H 'Accept: application/hal+json' -d @submissionStatus.json

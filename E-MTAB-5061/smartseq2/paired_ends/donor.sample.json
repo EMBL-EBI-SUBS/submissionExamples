@@ -1,0 +1,20 @@
+{
+  "alias": "fetus",
+  "title": "12w fetus",
+  "description": "12 week post-conception fetus",
+  "attributes": [
+    {
+      "name": "age",
+      "value": "12",
+      "units": "weeks"
+    },
+    {
+      "name": "life_stage",
+      "value": "embryo"
+    }
+  ],
+  "taxonId": 9606,
+  "taxon": "Homo sapiens",
+  "archive": "BioSamples",
+  "submission": "http://submission-dev.ebi.ac.uk/api/submissions/0d31d31c-93f0-4b6c-9cab-08919a6bfa4e"
+}

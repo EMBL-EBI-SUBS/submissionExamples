@@ -1,0 +1,25 @@
+{
+  "alias": "fetus 1",
+  "title": "12w fetal neocortex",
+  "description": "12 week post conception fetal neocortex",
+  "attributes": [
+    {
+      "name": "body part",
+      "value": "neocortex"
+    },
+    {
+      "name": "body part",
+      "value": "brain"
+    }
+  ],
+  "sampleRelationships": [
+    {
+      "alias": "fetus",
+      "relationshipNature": "Derived from"
+    }
+  ],
+  "taxonId": 9606,
+  "taxon": "Homo sapiens",
+  "archive": "BioSamples",
+  "submission": "http://submission-dev.ebi.ac.uk/api/submissions/0d31d31c-93f0-4b6c-9cab-08919a6bfa4e"
+}
